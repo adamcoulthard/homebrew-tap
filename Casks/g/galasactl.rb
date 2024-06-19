@@ -8,7 +8,7 @@ cask "galasactl" do
   url "https://github.com/galasa-dev/cli/releases/download/v#{version}/galasactl-darwin-#{arch}",
       verified: "github.com/galasa-dev/cli/releases/"
   name "Galasa Client"
-  desc "Galasa command-line interface (Galasa CLI) is used to interact with the Galasa ecosystem or local development environment"
+  desc "Client to interact with the Galasa ecosystem or local development environment"
   homepage "https://galasa.dev/"
 
   livecheck do
