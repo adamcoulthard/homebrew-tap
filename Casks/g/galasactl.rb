@@ -1,9 +1,10 @@
 cask "galasactl" do
   arch arm: "arm64", intel: "x86-64"
-
+  
   version "0.35.0"
-  sha256 arm:   "9336ff87dfe927a5fd07f5d59cffeb165680e4ce08ed199350810513b94ad85e",
-         intel: "f3be42f09c4b1dc0765c8c381bbb73f7095aa2d133bbd5916763ee025401ba17"
+  # Create the sha256 using shasum --algorithm 256 <file>
+  sha256 arm:   "8bf6aa19fd5ea6e34c40379165892272c67f74c6b11992a9f1840cc72e79e08c",
+         intel: "fc0f31701c06e1cfda03ed9c3303776a214cbab3d0d863a3ee4eaf6d5d40c0ff"
 
   url "https://github.com/galasa-dev/cli/releases/download/v#{version}/galasactl-darwin-#{arch}",
       verified: "github.com/galasa-dev/cli/releases/"
