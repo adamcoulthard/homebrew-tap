@@ -1,7 +1,7 @@
 cask "galasactl" do
   arch arm: "arm64", intel: "x86-64"
 
-  version "0.34.1"
+  version "0.35.0"
   sha256 arm:   "9336ff87dfe927a5fd07f5d59cffeb165680e4ce08ed199350810513b94ad85e",
          intel: "f3be42f09c4b1dc0765c8c381bbb73f7095aa2d133bbd5916763ee025401ba17"
 
