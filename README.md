@@ -27,10 +27,12 @@ At the moment the --no-quarantine is required because otherwise its not possible
 https://galasa.dev.
 
 ## Releaseing a new version
-When a new version of the galasaclt is released a new galasactl@x.xx.x.rb file needs to be created the following changes are required on the file:
+Use the helper script `add-version.sh`
 
-* Update the cask name to being galasactl@x.xx.x
-* Update the version variable within the file.
-* Update the two sha values.
+For example:
+```bash
+./add-version.sh --version 0.36.0
+```
 
-The galasactl.rb needs to be updated to the latest version as well to allow a user to always install the latest version easily.
+The file Cask/g/galasactl.rb will be updated with that version, so people can get that as the latest version.
+An extra formula will be added for that version specifically also.
