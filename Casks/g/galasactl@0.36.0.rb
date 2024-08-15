@@ -1,4 +1,4 @@
-cask "galasactl@0.35.0" do
+cask "galasactl@0.36.0" do
   arch arm: "arm64", intel: "x86-64"
   
   version "0.36.0"
